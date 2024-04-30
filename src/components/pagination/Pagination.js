@@ -12,8 +12,6 @@ const Pagination = ({
 
     let pages = [];
 
-    console.log(currentPage)
-
     for (let i = 1; i <= Math.ceil(resultantAppartments.length / appartmentsPerPage); i++) {
        if(resultantAppartments.length >= appartmentsPerPage || (resultantAppartments.length > 0 && resultantAppartments.length < appartmentsPerPage)){
             pages.push(i);
