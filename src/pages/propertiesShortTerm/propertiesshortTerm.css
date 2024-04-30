@@ -1,0 +1,28 @@
+.parentApartment{
+    display: flex;
+    flex-wrap:wrap;
+    height:35rem;
+    overflow: auto;
+    background: rgb(218, 215, 215);
+    margin-top: 1rem;
+}
+.singleApartment{
+    height:16rem;
+    width:15rem;
+    background: rgba(235, 231, 231, 0.951);
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+
+}
+.apartmentImg{
+    width:15rem;
+}
+.bathroom, .size{
+    margin-left: 1rem;
+}
+.nothing{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+

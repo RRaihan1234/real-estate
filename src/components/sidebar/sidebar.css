@@ -1,0 +1,33 @@
+.sidebarParent{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor:pointer;
+    height:1.5rem;
+}
+.sidebarParent:hover{
+    background: gray;
+}
+.icon{
+    margin-right: 1rem;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+}
+.menuItem{
+    font-size: small;
+}
+.iconDropDown{
+    margin-left: 3rem;
+}
+.dropdownItems{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: small;
+    cursor:pointer;
+    height:1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+.dropdownItems:hover{
+    background: gray;
+}
